@@ -1,5 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
 
-html {
-    background: yellow;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+app-root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "aside aside"
+    "footer footer";
+    grid-gap: 20px;
+}
+
+gp-header {
+  display: flex;
+  background: yellow;
+  padding: 1em;
+  grid-area: header;
+}
+
+gp-main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titlebar {
+  grid-column: span 2;
+  h1 {
+    margin: 0;
+  }
+}
+
+.titlebar {
+  background: green;
+}
+
+article {
+  background: grey;
+  padding: 1em;
+}
+
+gp-aside {
+  background: red;
+  padding: 1em;
+  grid-area: aside;
+}
+
+gp-footer {
+  background: green;
+  padding: 1em;
+  grid-area: footer;
+}
+
+
+@media screen and (min-width: 736px) 
+{
+  app-root {
+  display: grid;
+  grid-template-columns: 1fr 800px 300px 1fr;
+  grid-template-areas:
+    "header header header header"
+    ". main aside ."
+    "footer footer footer footer";
+    grid-gap: 0;
+  }
 }

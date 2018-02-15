@@ -1,0 +1,24 @@
+:host {
+  display: grid;
+  background: lightgray;
+  padding: 1em;
+  grid-area: header;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-areas:
+    ". logo link .";
+  grid-gap: 20px;
+}
+
+.logo {
+  grid-area: logo;
+  background: rgb(90, 89, 89);
+  color: darkgrey;
+  padding: 1em;
+}
+
+.link {
+  grid-area: logo;
+  justify-self: end;
+    background: rgb(90, 89, 89);
+  color: darkgrey;
+}

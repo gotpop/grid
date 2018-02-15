@@ -1,0 +1,18 @@
+:host {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titlebar {
+    background: green;
+    grid-column: span 2;
+    h1 {
+        margin: 0;
+    }
+}
+
+article {
+  background: grey;
+  padding: 1em;
+}

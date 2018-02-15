@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-app-root {
+:host {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -14,50 +15,8 @@ app-root {
     "main main"
     "aside aside"
     "footer footer";
-    grid-gap: 20px;
+    grid-gap: 2em;
 }
-
-gp-header {
-  display: flex;
-  background: yellow;
-  padding: 1em;
-  grid-area: header;
-}
-
-gp-main {
-  grid-area: main;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.titlebar {
-  grid-column: span 2;
-  h1 {
-    margin: 0;
-  }
-}
-
-.titlebar {
-  background: green;
-}
-
-article {
-  background: grey;
-  padding: 1em;
-}
-
-gp-aside {
-  background: red;
-  padding: 1em;
-  grid-area: aside;
-}
-
-gp-footer {
-  background: green;
-  padding: 1em;
-  grid-area: footer;
-}
-
 
 @media screen and (min-width: 736px) 
 {
@@ -68,6 +27,6 @@ gp-footer {
     "header header header header"
     ". main aside ."
     "footer footer footer footer";
-    grid-gap: 0;
+    grid-gap: 1em;
   }
 }

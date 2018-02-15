@@ -2,14 +2,15 @@
   grid-area: main;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  box-shadow: 5px 5px 5px rgba(black, .5);
 }
 
 .titlebar {
-    background: green;
-    grid-column: span 2;
-    h1 {
-        margin: 0;
-    }
+  background: green;
+  grid-column: span 2;
+  h1 {
+    margin: 0;
+  }
 }
 
 article {

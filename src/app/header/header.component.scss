@@ -3,22 +3,25 @@
   background: lightgray;
   padding: 1em;
   grid-area: header;
-  grid-template-columns: 1fr 500px 500px 1fr;
-  grid-template-areas:
-    ". logo link .";
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "logo link";
+  grid-gap: 1em;
+  box-shadow: 5px 5px 5px rgba(black, .5);
 }
 
 .logo {
   grid-area: logo;
   background: rgb(90, 89, 89);
-  color: darkgrey;
+  color: rgb(139, 137, 137);
   padding: 1em;
+  grid-column: span 1;
 }
 
 .link {
-  grid-area: logo;
+  grid-area: link;
   justify-self: end;
-    background: rgb(90, 89, 89);
+  grid-column: span 3;
+  background: rgb(90, 89, 89);
   color: darkgrey;
+  padding: 1em;
 }

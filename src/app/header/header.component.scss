@@ -1,17 +1,18 @@
+@import "../../../build/scss/vars";
 :host {
   display: grid;
-  background: lightgray;
+  background: #e7e7e7;
   padding: 1em;
   grid-area: header;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: "logo link";
-  grid-gap: 1em;
-  box-shadow: 5px 5px 5px rgba(black, .5);
+  grid-gap: $padding-small;
+  box-shadow: $shadow;
 }
 
 .logo {
   grid-area: logo;
-  background: rgb(90, 89, 89);
+  background: $light;
   color: rgb(139, 137, 137);
   padding: 1em;
   grid-column: span 1;

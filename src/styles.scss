@@ -8,6 +8,11 @@
 
 /* Styles */
 
+html {
+    line-height: 1.8em;
+    font-size: 16px;
+}
+
 app-root {
     display: grid;
     grid-template-columns: 1fr 1fr;

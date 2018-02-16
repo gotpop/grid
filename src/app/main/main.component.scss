@@ -8,7 +8,8 @@
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    box-shadow: $shadow1;
+    box-shadow: $shadow2;
+    padding: $padding-small;
 }
 
 .titlebar {
@@ -21,6 +22,6 @@
 }
 
 article {
-    background: $dark1;
+    border-top: 1px solid $dark1;
     padding: $padding-small;
 }

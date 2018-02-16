@@ -1,19 +1,26 @@
+/* Import */
+
+@import "src/assets/scss/vars";
+
+/* Style */
+
 :host {
-  grid-area: main;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  box-shadow: 5px 5px 5px rgba(black, .5);
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: $shadow1;
 }
 
 .titlebar {
-  background: green;
-  grid-column: span 2;
-  h1 {
-    margin: 0;
-  }
+    background: $dark2;
+    grid-column: span 2;
+    padding: $padding-small;
+    h1 {
+        margin: 0;
+    }
 }
 
 article {
-  background: grey;
-  padding: 1em;
+    background: $dark1;
+    padding: $padding-small;
 }

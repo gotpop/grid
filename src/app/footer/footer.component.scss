@@ -1,7 +1,14 @@
+/* Import */
+
+@import "src/assets/scss/vars";
+
+/* Style */
+
 :host {
-  background: grey;
-  padding: 1em;
-  grid-area: footer;
-  align-self: end;
-  margin-top: 2rem;
+    background: $dark2;
+    padding: $padding-small;
+    grid-area: footer;
+    align-self: end;
+    margin-top: $padding-large;
+    box-shadow: $shadow3;
 }

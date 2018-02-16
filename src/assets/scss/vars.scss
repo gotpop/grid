@@ -1,25 +1,25 @@
 /* Light Colour Vars */
 
-$light1: rgb(209, 209, 209);
-$light2: rgb(209, 209, 209);
-$light3: rgb(209, 209, 209);
-$light4: rgb(209, 209, 209);
+$light1: rgb(236, 236, 236);
+$light2: rgb(204, 202, 202);
+$light3: rgb(179, 179, 179);
+$light4: rgb(182, 182, 182);
 
 /* Dark Colour Vars */
 
-$dark1: rgb(209, 209, 209);
-$dark2: rgb(209, 209, 209);
-$dark3: rgb(209, 209, 209);
-$dark4: rgb(209, 209, 209);
+$dark1: rgb(102, 102, 102);
+$dark2: rgb(90, 90, 90);
+$dark3: rgb(39, 39, 39);
+$dark4: rgb(26, 25, 25);
 
 /* Applied Vars */
 
-$shadow: 5px 5px 5px rgba(black, .5);
-$shadow: 5px 5px 5px rgba(black, .5);
-$shadow: 5px 5px 5px rgba(black, .5);
+$shadow1: 5px 5px 5px rgba($dark4, .5);
+$shadow2: 5px 5px 5px rgba($dark4, .5);
+$shadow3: 5px 5px 5px rgba($dark4, .5);
 
 /* Spacing */
 
 $padding-small: 1em;
-$padding-medium: 1em;
-$padding-large: 1em;
+$padding-medium: 2em;
+$padding-large: 3em;

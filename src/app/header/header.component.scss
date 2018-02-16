@@ -5,6 +5,8 @@
 /* Style */
 
 :host {
+    position: sticky;
+    top: 0;
     display: grid;
     background: $light1;
     padding: $padding-small;
@@ -12,7 +14,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "logo link";
     grid-gap: $padding-small;
-    box-shadow: $shadow;
+    box-shadow: $shadow1;
 }
 
 .logo {

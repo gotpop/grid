@@ -1,5 +1,12 @@
+/* Import */
+
+@import "src/assets/scss/vars";
+
+/* Style */
+
 :host {
-  background: red;
-  padding: 1em;
-  grid-area: aside;
+    grid-area: aside;
+    padding: $padding-small;
+    background: $light2;
+    box-shadow: $shadow1;
 }

@@ -14,7 +14,7 @@ app-root {
     min-height: 100vh;
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 1000px) {
     app-root {
         display: grid;
         grid-template-columns: .5fr 3fr 1fr .5fr;

@@ -5,29 +5,5 @@
 
 @import "src/assets/scss/vars";
 @import "src/assets/scss/reset";
-
-/* Styles */
-
-html {
-    line-height: 1.8em;
-    font-size: 16px;
-    background: $lighttint1;
-}
-
-app-root {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header header" "main main" "aside aside" "footer footer";
-    grid-gap: $padding-medium;
-    min-height: 100vh;
-}
-
-@media screen and (min-width: 736px) {
-    app-root {
-        display: grid;
-        grid-template-columns: 1fr 3fr 1fr 1fr;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas: "header header header header" ". main aside ." "footer footer footer footer";
-        grid-gap: $padding-large;
-    }
-}
+@import "src/assets/scss/typography";
+@import "src/assets/scss/global";

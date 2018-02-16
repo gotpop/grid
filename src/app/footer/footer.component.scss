@@ -16,9 +16,13 @@
 }
 
 .social-link {
-    margin: $padding-small;
+    margin: $margin-tiny;
     text-decoration: none;
     svg {
         fill: $darktint4;
     }
+}
+
+small {
+    color: $darktint3;
 }

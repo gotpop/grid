@@ -8,12 +8,14 @@
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: $padding-small;
+    background: $white;
     box-shadow: $shadow2;
     padding: $padding-small;
 }
 
 .titlebar {
-    background: $dark2;
+    background: $lighttint2;
     grid-column: span 2;
     padding: $padding-small;
     h1 {
